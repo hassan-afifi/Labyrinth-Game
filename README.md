@@ -30,6 +30,17 @@ The project demonstrates object-oriented game architecture, event-driven program
 - MySQL
 - File I/O
 
+## Database Setup
+
+The game stores high scores in a MySQL database.
+
+1. Install MySQL Server.
+2. Run the SQL script located in `database/schema.sql`.
+3. Update the connection credentials in `DatabaseManager.java` if needed.
+4. Add the MySQL Connector/J library to the project's classpath.
+
+**Note:** This project requires **MySQL Connector/J 8.x** to connect to the MySQL database.
+
 ## Project Structure
 
 ```text
