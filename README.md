@@ -35,17 +35,19 @@ The project demonstrates object-oriented game architecture, event-driven program
 ```text
 Labyrinth-Game/
 │
-├── LabyrinthGame.java
-├── GamePanel.java
-├── Player.java
-├── Dragon.java
-├── LevelManager.java
-├── DatabaseManager.java
-├── HighScore.java
+├── src/
+│   ├── LabyrinthGame.java
+│   ├── GamePanel.java
+│   ├── Player.java
+│   ├── Dragon.java
+│   ├── LevelManager.java
+│   ├── DatabaseManager.java
+│   └── HighScore.java
+│
 ├── levels/
 ├── README.md
 ├── LICENSE
-└── .gitignore
+└── build.xml
 ```
 
 ## Gameplay
