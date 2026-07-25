@@ -39,7 +39,7 @@ The game stores high scores in a MySQL database.
 3. Update the connection credentials in `DatabaseManager.java` if needed.
 4. Add the MySQL Connector/J (8.x) driver to the project's classpath.
 
-**Note:** This project requires **MySQL Connector/J 8.x.** Download the driver and add it to your project's classpath before running the application.
+**Note:** This project requires **MySQL Connector/J 8.x**. Download the driver and add it to your project's classpath before running the application.
 ## Project Structure
 
 ```text
